@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 200;
+  color: #333;
+  background-color: hsl(0, 0%, 98%);
+}
+header {
+  margin: 0 auto;
+  max-width: 500px;
+}
+header p {
+  max-width: 500px;
+}
+header .heading h2.Power {
+  font-weight: 600;
+}
+header .heading h2.reliable {
+  font-weight: 200;
+}
+
+.container-fluid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+}
+.card-div {
+  background-color: #fff;
+  padding: 10px;
+  margin: 10px;
+  width: 350px;
+  height: 200px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05), 0 3px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  position: relative;
+}
+.card-div img {
+  display: block;
+  margin-left: auto;
+}
+.card-div h2 {
+  font-size: 22px;
+  font-weight: 600;
+}
+#karma::after {
+  position: absolute;
+  content: "";
+  background-color: hsl(34, 97%, 64%);
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 100%;
+}
+#super::after {
+  position: absolute;
+  content: "";
+  background-color: hsl(180, 62%, 55%);
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 100%;
+}
+#team::after {
+  position: absolute;
+  content: "";
+  background-color: hsl(0, 78%, 62%);
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 100%;
+}
+#cal::after {
+  position: absolute;
+  content: "";
+  background-color: hsl(212, 86%, 64%);
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 100%;
+}
+.text {
+  max-width: 85%;
+}
+.text p {
+  margin: 12px 0;
+}
+
+.box-push {
+  transform: translateY(50%);
+}
+@media (max-width: 500px) {
+  header p {
+    max-width: 350px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 790px) {
+  .box-push {
+    transform: translateY(0);
+  }
+}
